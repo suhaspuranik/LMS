@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lobster&family=Noto+Serif&family=Nova+Oval&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{% static 's1.css' %}">
+    <title>LMs</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h2><img src="{% static 'images/LEARN_HUB-removebg-preview.png' %}" alt="">LEARN HUB</h2>
+        <ul id="nav-items">
+            <li><a href="#"><i class="fa-solid fa-house"></i> HOME</a></li>
+            <li><a href="#about"><i class="fas fa-info-circle"></i> ABOUT</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> CONTACT</a></li>
+            <li><a href="#"><i class="fas fa-sign-in-alt"></i> LOGIN</a></li>
+        </ul>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="{% static 'images/python.png' %}" alt="Card Image 1">
+            <div class="card-content">
+                <h3 class="card-title">Python Programming</h3>
+                <p class="card-description">A versatile, easy-to-read programming language used in web development, data
+                    analysis, and automation</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/artificial-intelligence.png' %}" alt="Card Image 2">
+            <div class="card-content">
+                <h3 class="card-title">AI and ML</h3>
+                <p class="card-description">A language for creating chatbots that can understand and respond to user
+                    inputs.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/cyber-criminal.png' %}" alt="Card Image 3">
+            <div class="card-content">
+                <h3 class="card-title">Cyber Security</h3>
+                <p class="card-description">Protecting systems and data from digital threats and unauthorized access.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/web.png' %}" alt="Card Image 4">
+            <div class="card-content">
+                <h3 class="card-title">AWS Cloud</h3>
+                <p class="card-description">Amazon’s cloud platform offering services for computing, storage, and more,
+                    enabling scalable and cost-effective infrastructure.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/data-science.png' %}" alt="Card Image 5">
+            <div class="card-content">
+                <h3 class="card-title">Data Science</h3>
+                <p class="card-description">The practice of analyzing large datasets to extract valuable insights and
+                    support decision-making.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/java.png' %}" alt="Card Image 6">
+            <div class="card-content">
+                <h3 class="card-title">Java Development</h3>
+                <p class="card-description">Building applications using Java, a widely-used, object-oriented programming
+                    language known for its portability and performance.</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+                Welcome to Learn Hub! We are dedicated to providing the best learning resources and tools to help you
+                achieve your educational goals. Our platform offers a wide range of courses and materials designed to
+                enhance your skills and knowledge. Join us on this exciting journey to learn and grow! Our head office
+                is located in Kota, Udupi Dist-Karnataka.
+            </p>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31033.53086605084!2d74.68709677065058!3d13.52384513418738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc96b9721c24af%3A0xb22210771d4eb9ae!2sKota%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1723137345260!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Contact us at: <i class="fa-duotone fa-solid fa-envelope"></i>
+            <a href="mailto:info@learnhub.com">info@learnhub.com</a> | <i class="fa-solid fa-phone"></i>
+            <a href="tel:+916361452859">+916361452859</a>
+        </p>
+    </footer>
+</body>
+
+</html>

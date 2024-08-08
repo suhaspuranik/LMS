@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif", serif;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+
+}
+body {
+    background: url('Set_of_programmers_02_02.jpg') no-repeat center center fixed;
+    background-size: contain;
+    font-family: "Noto Serif", serif;
+}
+.nova-oval-regular {
+    
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: large;
+    background-color: #113065;
+    height: 60px;
+    
+
+}
+
+.nav h2{
+    color: aliceblue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+.nav h2 img{
+    height: 120px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#nav-items{
+    
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+#nav-items li{
+    margin-left: 30px;
+    margin-right: 10px;
+    
+    
+
+}
+#nav-items li a{
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+    
+
+}
+#nav-items li a:hover{
+    background-color:#6289cd;
+    color: black;
+    border-radius: 30px;
+    
+
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 30px 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    cursor:pointer;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.card img {
+    width: 100%;
+    
+    height: auto;
+    
+    
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0;
+    color: #0c0c0c;
+    border-bottom: 2px solid #0c0c0c;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    flex: 1;
+    text-align:justify;
+}
+
+.about {
+    background: #f4f4f469;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.about-content {
+    max-width:100%;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #262525;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #363636;
+    line-height: 1.6;
+}
+.contact {
+    background: #ffffff31;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0b0b0b;
+    font-weight: 400;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #113065;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:#6289cd;
+    color: black;
+    border-radius: 10px;
+}
+
+
+
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.map-container iframe {
+    border: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #113065;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+    bottom: 0;
+    
+}
+
+.footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
